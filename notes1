@@ -1,0 +1,32 @@
+Issue: 
+had a issue trying to setup passwords for the employees
+Problem:
+The password did not meet the domain password policy requirements (complexity rules).
+Solution:
+Updated the password to meet the policy requirements:
+Minimum length
+Included uppercase and lowercase letters
+Included numbers and special characters
+
+Example of valid password:
+P@ssw0rd123!
+
+Lesson Learned:
+Active Directory enforces password policies set through Group Policy, so all user passwords must meet complexity requirements.
+
+Issue: Organizing Shared Folders into a Single Directory
+Problem:
+Initially created separate folders (Sales, HR, IT) directly in the C:\ drive, which made the structure disorganized.
+Cause:
+Folders were created individually without planning a centralized directory structure.
+Solution:
+Created a parent folder (C:\Company Shares) and moved all department folders (Sales, HR, IT) inside it.
+Final Structure:
+C:\Company Shares
+- Sales
+- HR
+- IT
+Lesson Learned:
+Using a centralized directory structure improves organization, scalability, and reflects real-world file server design.
+Impact:
+This structure makes it easier to manage permissions, locate resources, and maintain consistency across departments.
