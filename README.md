@@ -14,6 +14,13 @@ Built a Windows Server Active Directory environment to simulate real-world helpd
 - Delegated helpdesk permissions for password resets
 - Enforced password policy using Group Policy
 
+## Simulated Helpdesk Tasks
+
+- Reset user passwords in Active Directory
+- Assigned users to department groups
+- Configured file share access based on roles
+- Troubleshot NTFS permission inheritance issues
+
 ## Structure
 - Admins
 - Employees
